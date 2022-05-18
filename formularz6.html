@@ -1,0 +1,108 @@
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="buttons.css">
+    <style>
+            header{
+			background-color: #4CA5FF;
+			width: 100%;
+			height:70px;
+			text-align: center;
+        }   
+
+        section{
+            clear: both;
+			background-color: powderblue;
+            text-align:center;
+			height: 100%;
+			width: 100%;
+            
+        }
+            
+
+            a.button {
+                -webkit-appearance:button;
+                -moz-appearance: button;
+                appearance: button;
+                text-decoration: none;
+                color:initial;
+
+            }
+            input[type=submit]{
+            width:10%;
+            background: green;
+            color:white;
+            border:none;
+            padding: 10px;
+            border-radius:5px;
+        }
+        input[type=reset]{
+            width:10%;
+            background: green;
+            color: white;
+            border:none;
+            padding: 10px;
+            border-radius:5px;
+        }
+        input[type=submit]:hover {
+            background-color: greenyellow;
+        }
+        input[type=reset]:hover {
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+<title>formularz6</title>
+    <header><p style="color: purple; font-size:50px;font-family: Calibri"><u>Formularze</u></p></header>
+    <header>
+        <a href="index.html"><button class="btn"><b>formularz 1</b></button></a>
+        <a href="formularz2.html"><button class="btn"><b>formularz 2</b></button></a>
+        <a href="formularz3.html"><button class="btn"><b>formularz 3</b></button></a>
+        <a href="formularz4.html"><button class="btn"><b>formularz 4</b></button></a>
+        <a href="formularz5.html"><button class="btn"><b>formularz 5</b></button></a>
+        <a href="formularz6.html"><button class="btn"><b>formularz 6</b></button></a>
+    </header>
+
+     
+</body>
+<section>
+    <br>
+    <p>Wybierz swój ulubiony owoc:</p>
+    <form>
+    <input type="text" name="przedmiot" value="" list="owoce">
+    <datalist id="owoce">
+        <option value="Jabłko">Jabłko</option>
+        <option value="Ananas">Ananas</option>
+        <option value="Winogrono">Winogrono</option>
+        <option value="Wiśnia">Wiśnia</option>
+    </datalist>
+    <p> Wybierz swoje ulubione warzywo:</p>
+    <input type="text" name="przedmiot" value="" list="warzywo">
+    <datalist id="warzywo">
+        <option value="Ogórek">Ogórek</option>
+        <option value="Por">Por</option>
+        <option value="Sałata">Sałata</option>
+        <option value="Rzodkiewka">Rzodkiewka</option>
+    </datalist>
+    <br>
+    <p>Wybierz swój ulubiony sport:</p>
+    <select multiple="multiple" size="4" style="width: 200px">
+        <option value="Piłka nożna">Piłka nożna</option>
+        <option value="Koszykówka">Koszykówka</option>
+        <option value="Siatkówka">Siatkówka</option>
+        <option value="Tenis stołowy">Tenis stołowy</option>
+        <option value="Tenis ziemny">Tenis ziemny</option>
+        <option value="Szachy">Szachy</option>
+     </select>
+     <br>
+     <br>
+     <input type="submit" value="Wyślij">
+     <input type="reset" value="Wyczyść">
+    
+</section>
+
+
+
+
+    
+</html>

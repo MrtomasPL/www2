@@ -1,0 +1,142 @@
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="buttons.css">
+    <style>
+            header{
+			background-color: #4CA5FF;
+			width: 100%;
+			height:70px;
+			text-align: center;
+        }   
+
+        section{
+            clear: both;
+			background-color: powderblue;
+            text-align:center;
+			height: 100%;
+			width: 100%;
+            
+        }
+            
+
+            a.button {
+                -webkit-appearance:button;
+                -moz-appearance: button;
+                appearance: button;
+                text-decoration: none;
+                color:initial;
+
+            }
+        input[type=submit]{
+            width:10%;
+            background: green;
+            color:white;
+            border:none;
+            padding: 10px;
+            border-radius:5px;
+        }
+        input[type=reset]{
+            width:10%;
+            background: green;
+            color: white;
+            border:none;
+            padding: 10px;
+            border-radius:5px;
+        }
+        input[type=submit]:hover {
+            background-color: greenyellow;
+        }
+        input[type=reset]:hover {
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+
+    <header><p style="color: purple; font-size:50px; font-family: Calibri"><u>Formularze</u></p></header>
+    <header>
+        <a href="formularz1.html"><button class="btn"><b>formularz 1</b></button></a>
+        <a href="formularz2.html"><button class="btn"><b>formularz 2</b></button></a>
+        <a href="formularz3.html"><button class="btn"><b>formularz 3</b></button></a>
+        <a href="formularz4.html"><button class="btn"><b>formularz 4</b></button></a>
+        <a href="formularz5.html"><button class="btn"><b>formularz 5</b></button></a>
+        <a href="formularz6.html"><button class="btn"><b>formularz 6</b></button></a>
+    </header>
+
+</body> 
+<title>formularz1</title>
+<section>
+    <br>
+    <h1><center><p style="font-style: italic; font-size: 30px; font-family: Calibri">Formularz kontaktowy</p></center></h1>
+    <br>
+    <form >
+        Nazwisko:
+        <br>
+        <input type = "text" name = "nazwisko" />
+        <br>
+        <br>
+        Imię: 
+        <br>
+        <input type = "text" name = "imię" />
+        <br>
+        <br>
+        <p>Wykształcenie:</p>
+        <input type="radio" id="wyksz1" value="Podstawowe" checked>Podstawowe
+        <br>
+        <input type="radio" id="wyksz2" value="Średnie">Średnie
+        <br>
+        <input type="radio" id="wyksz3" value="Wyższe">Wyższe     
+        <br>
+        <br>
+        <p>W jakim języku programujesz?</p>
+        <input type="checkbox" id="jez1" value="C++">
+        <label for="jez1">C++</label><br>
+        <input type="checkbox" id="jez2" value="JavaScript">
+        <label for="jez2">JavaScript</label><br>
+        <input type="checkbox" id="jez3" value="PHP">
+        <label for="jez3">PHP</label><br>
+        <input type="checkbox" id="jez4"  value="Java">
+        <label for="vehicle1">Java</label><br>
+        <input type="checkbox" id="jez5" value="Python">
+        <label for="vehicle2">Python</label><br>
+        <br>
+        <input type="checkbox" id="zgadzam" value="zgadzam">
+        <label for="zgadzam">Zgadzam się na przetwarzanie danych osobowych</label>
+        <br>
+        <br>
+        <select name = "dropdown" style="width: 200px">
+            <option value = "0-17" selected>0-17</option>
+            <option value = "1">1</option>
+            <option value = "2">2</option>
+            <option value = "3">3</option>
+            <option value = "4">4</option>
+            <option value = "5">5</option>
+            <option value = "6">6</option>
+            <option value = "7">7</option>
+            <option value = "8">8</option>
+            <option value = "9">9</option>
+            <option value = "10">10</option>
+            <option value = "11">11</option>
+            <option value = "12">12</option>
+            <option value = "13">13</option>
+            <option value = "14">14</option>
+            <option value = "15">15</option>
+            <option value = "16">16</option>
+            <option value = "17">17</option>
+        </select>
+        <br>
+        <br>
+        <p>Uwagi:</p>
+        <textarea rows = "5" cols = "50" name = "description">
+         </textarea>
+        <br>
+        <br> 
+        <input type = "submit" name = "Wyślij" value = "Wyślij" /></button>
+        <input type = "reset" name = "Wyczyść"  value = "Wyczyść" /></button>
+     </form>
+
+
+</section> 
+
+    
+</html>

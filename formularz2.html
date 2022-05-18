@@ -1,0 +1,97 @@
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="buttons.css">
+    <style>
+            header{
+			background-color: #4CA5FF;
+			width: 100%;
+			height:70px;
+			text-align: center;
+        }   
+
+        section{
+            clear: both;
+			background-color: powderblue;
+            text-align:center;
+			height: 100%;
+			width: 100%;
+            
+        }
+            
+
+            a.button {
+                -webkit-appearance:button;
+                -moz-appearance: button;
+                appearance: button;
+                text-decoration: none;
+                color:initial;
+
+            }
+            input[type=submit]{
+            width:10%;
+            background: green;
+            color:white;
+            border:none;
+            padding: 10px;
+            border-radius:5px;
+        }
+        input[type=reset]{
+            width:10%;
+            background: green;
+            color: white;
+            border:none;
+            padding: 10px;
+            border-radius:5px;
+        }
+        input[type=submit]:hover {
+            background-color: greenyellow;
+        }
+        input[type=reset]:hover {
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+<title>formularz2</title>
+    <header><p style="color: purple; font-size:50px;font-family: Calibri"><u>Formularze</u></p></header>
+    <header>
+        <a href="index.html"><button class="btn"><b>formularz 1</b></button></a>
+        <a href="formularz2.html"><button class="btn"><b>formularz 2</b></button></a>
+        <a href="formularz3.html"><button class="btn"><b>formularz 3</b></button></a>
+        <a href="formularz4.html"><button class="btn"><b>formularz 4</b></button></a>
+        <a href="formularz5.html"><button class="btn"><b>formularz 5</b></button></a>
+        <a href="formularz6.html"><button class="btn"><b>formularz 6</b></button></a>
+    </header>
+
+    
+</body> 
+
+<section>
+    <form>
+        <br>
+        <p>Nazwisko i imię:</p>
+        <input type="text" name="nazwisko i imie">
+        <br>
+        <p style="font-family: Calibri"><b>Wybór języka:</b></p>
+        <select multiple="multiple" size="3">
+            <option value="Język angielski">Język angielski</option>
+            <option value="Język niemiecki">Język niemiecki</option>
+            <option value="Język francuski">Język francuski</option>
+            <option value="Język włoski">Język włoski</option>
+            <option value="Język rosyjski">Język rosyjski</option>
+            <option value="Język hiszpański">Język hiszpański</option>
+         </select>
+         <br>
+         <br>
+         <input type="submit" value="Wyślij">
+         <input type="reset" value="Wyczyść">
+       
+
+
+           
+    </form>
+</section>
+
+
+    
+</html>

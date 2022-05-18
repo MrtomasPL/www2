@@ -1,0 +1,35 @@
+.btn {
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: white;
+    transition: background-color 0s;
+    border: 2px solid #A2D9CE;
+}
+
+.btn1 {
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: green;
+    transition: background-color 0s;
+    border: 2px solid #A2D9CE;
+}
+
+.wpforms-form input[type=submit], 
+.wpforms-form button[type=submit] {
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: green;
+    transition: background-color 0s;
+    border: 2px solid #A2D9CE;
+}
+
+.btn:hover {
+    background-color: #A2D9CE;
+}
+
+.btn1:hover {
+    background-color: greenyellow;
+}
